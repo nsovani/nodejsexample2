@@ -10,7 +10,7 @@ function User(firstName,lastName,password,latitude,longitude) {
   this.longitude= longitude;
 }
 
-let singleuser = new User('Niranjan', 'Sovani','Abc@7817', '18.5791138', '73.7391434'); 
+var singleuser = new User('Niranjan', 'Sovani','Abc@7817', '18.5791138', '73.7391434'); 
 console.log("new single user" + singleuser.firstName);
 router.post('/get', function(req, res, next) {
     
